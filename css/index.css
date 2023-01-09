@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7c5e99;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Fira Code', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    display: inline-flex;
+    align-items: center;
+}
+
+a::before {
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    content: '';
+}
+
+#button {
+    display: inline-block;
+    background-color: #F25A70;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0;
+}
+#button:hover{
+    background-color: #ac91c5;
+}
+
+
+/* Display lida com o comportamento na tela
+Todos os elemttos são quadrados
+display: inline: permite ficar um elemento do lado do outro, coloca o maximo para a esquerda possivel, não permite usar width e height, assume comportamento de palavra  
+display: block: padrão dos navegadores, ocupa a linha toda, consegue definir largura e alutra,b 
