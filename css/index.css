@@ -30,15 +30,58 @@ a::before {
     content: '';
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #F25A70;
     padding: 18px 20px;
     box-shadow: 5px 5px 0 black;
     margin-right: 0;
 }
-#button:hover{
+.button:hover{
     background-color: #ac91c5;
 }
 
+.banner {
+    background: url(/assets/img/photo.png) no-repeat;
+    background-size: cover;
+    height: 797px;
+    position: relative;
+}
+.banner div {
+    position: absolute;
+    background: #3A4042;
+    width: 627px;
+    height: 184px;
+    top: 196px;
+    left: 91px;
+    box-shadow: 5px 5px 0 black;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+}
 
+.banner div h1 {
+    color: #F25A70;
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 4px 4px 0 black;
+    line-height: 40px;
+   
+}
+.banner div h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 4px 4px 0 black;
+    line-height: 30px;
+   
+}
+
+.banner nav {
+    position: absolute;
+    text-align: justify;
+    top: 418px;
+    left: 181px;
+}
+.banner nav .button {
+    margin-right: 112px;
+}
